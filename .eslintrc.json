@@ -1,0 +1,11 @@
+{
+  "extends": ["plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "prettier"],
+  "rules": {
+    "no-extra-boolean-cast": "off",
+    // suppress errors for missing 'import React' in files
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/explicit-module-boundary-type": "off"
+  }
+}
