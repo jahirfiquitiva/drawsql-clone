@@ -1,5 +1,4 @@
-import { useTablesData, useTableState } from "~/providers/TablesDataProvider";
-import { Table as TableType } from "~/types/tables";
+import { useTablesData } from "~/providers/TablesDataProvider";
 import { Button, ButtonGroup } from "../button/buttons";
 import { Table } from "../table";
 import { SidebarContainer, TablesList } from "./sidebar.styled";
